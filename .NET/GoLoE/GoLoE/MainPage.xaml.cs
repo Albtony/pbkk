@@ -15,10 +15,10 @@ public partial class MainPage : ContentPage
 
 		string status = "equal to";
 
-		if(leftNumber > rightNumber)
+		if(rightNumber > leftNumber)
 		{
 			status = "greater than";
-		} else if(leftNumber < rightNumber)
+		} else if(rightNumber < leftNumber)
 		{
 			status = "lower than";
 		} 
