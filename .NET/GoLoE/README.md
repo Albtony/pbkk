@@ -1,5 +1,5 @@
-Nama        : GoLoE
-Deskripsi   : 
+Nama        : GoLoE </br>
+Deskripsi   : </br>
 GoLoE adalah kependekan dari "Greater or Lower or Equal", aplikasi ini akan memetakan relasi dari dua nilai yang dimasukkan user ke `greater than`, `lower than`, dan `equal to` kemudian menampilkan hasilnya kepada user.
 
 Dokumentasi : </br>
