@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GoLoE.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <!-- Mascot Image -->
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <!-- App Description -->
+            <VerticalStackLayout
+                VerticalOptions="Center">
+                <Label
+                    Text="Welcome to GoLoE, an abbreviation of"
+                    FontSize="14"
+                    HorizontalTextAlignment="Center"
+                    HorizontalOptions="Center" />
+                <Label
+                    Text="Greater or Lower or Equal"
+                    FontSize="16"
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="Center"
+                    HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- App Function -->
+            <VerticalStackLayout
+                Spacing="10"
+                Padding="10,0"
+                VerticalOptions="Center">
+
+                <HorizontalStackLayout
+                    Spacing="25"
+                    Padding="10,0"
+                    HorizontalOptions="Center">
+                    <Entry 
+                        x:Name = "InputRightNumber"
+                        Text = "1" />
+                    <Entry 
+                        x:Name = "InputLeftNumber"
+                        Text = "2" />
+                </HorizontalStackLayout>
+
+                <Label
+                    Text="Click the button below to compare the numbers!"
+                    FontSize="14"
+                    HorizontalTextAlignment="Center"
+                    HorizontalOptions="Center" />
+                <Label
+                    x:Name="ResultLabel"
+                    Text=""
+                    FontSize="14"
+                    HorizontalTextAlignment="Center"
+                    HorizontalOptions="Center" />
+                <Button
+                    x:Name="CompareBtn"
+                    Text="Compare!"
+                    HorizontalOptions="Center"
+                    Clicked = "onCompare"/>
+
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
