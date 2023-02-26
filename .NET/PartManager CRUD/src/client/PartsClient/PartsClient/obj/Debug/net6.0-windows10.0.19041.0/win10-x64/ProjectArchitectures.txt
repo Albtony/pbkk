@@ -1,0 +1,1 @@
+C:\Users\albto\OneDrive\Documents\Code\personal\WIP\mslearn-dotnetmaui-consume-rest-services\src\client\PartsClient\PartsClient\PartsClient.csproj;x64
