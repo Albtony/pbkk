@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyTask</name>
+    </assembly>
+    <members>
+        <member name="P:MyTask.ViewModel.MainViewModel.Items">
+            <inheritdoc cref="F:MyTask.ViewModel.MainViewModel.items"/>
+        </member>
+        <member name="P:MyTask.ViewModel.MainViewModel.Text">
+            <inheritdoc cref="F:MyTask.ViewModel.MainViewModel.text"/>
+        </member>
+        <member name="F:MyTask.ViewModel.MainViewModel.addCommand">
+            <summary>The backing field for <see cref="P:MyTask.ViewModel.MainViewModel.AddCommand"/>.</summary>
+        </member>
+        <member name="P:MyTask.ViewModel.MainViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MyTask.ViewModel.MainViewModel.Add"/>.</summary>
+        </member>
+    </members>
+</doc>
