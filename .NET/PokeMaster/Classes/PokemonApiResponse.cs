@@ -4,8 +4,19 @@ public class PokemonApiResponse
 {
     public int Id { get; set; }
     public string Name { get; set; }
-    public float Height { get; set; }
-    public float Weight { get; set; }
+    private float _height;
+    private float _weight;
+    public float Height
+    {
+        get => _height;
+        set => _height = value / 10f;
+    }
+
+    public float Weight
+    {
+        get => _weight;
+        set => _weight = value / 10f;
+    }
     public Sprites Sprites { get; set; }
 }
 

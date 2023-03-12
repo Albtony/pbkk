@@ -48,14 +48,14 @@
                     TextTransform="Uppercase"
                     />
                 <Label
-                    Text="{Binding Height, Converter={StaticResource IntegerConverter}, StringFormat='Height: {0:F1} m'}"
+                    Text="{Binding Height, StringFormat='Height: {0:F1} m'}"
                     TextColor="#4C4B16"
                     FontSize="20"
                     FontFamily="{StaticResource PixelFont}"
                     TextTransform="Uppercase"
                     />
                 <Label
-                    Text="{Binding Weight, Converter={StaticResource IntegerConverter}, StringFormat='Weight: {0:F1} kg'}"
+                    Text="{Binding Weight, StringFormat='Weight: {0:F1} kg'}"
                     TextColor="#4C4B16"
                     FontSize="20"
                     FontFamily="{StaticResource PixelFont}"
