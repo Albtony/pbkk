@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeMaster.PokemonDetailPage"
+             Title="Pokemon Detail Page"
+             BackgroundColor="#F8DE7E">
+
+    <ContentPage.Resources>
+        <OnPlatform x:Key="PixelFont" x:TypeArguments="x:String">
+            <On Platform="WinUI" Value="/slkscr.ttf#Silkscreen" />
+        </OnPlatform>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem 
+            IconImageSource="back_arrow.png"
+            Priority="0"
+            Order="Primary"
+            Clicked="OnBackButtonClicked" />
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <HorizontalStackLayout
+            HorizontalOptions="Center">
+            <Image
+                HeightRequest="250">
+                <Image.Source>
+                    <UriImageSource Uri="{Binding Sprites.FrontDefault}" />
+                </Image.Source>
+            </Image>
+
+            <VerticalStackLayout
+                Margin="80,0,0,0"
+                VerticalOptions="Center"
+                HorizontalOptions="Center">
+                <Label
+                    Text="{Binding Id, StringFormat='Id: {0}'}"
+                    TextColor="#4C4B16"
+                    FontSize="20"
+                    FontFamily="{StaticResource PixelFont}"
+                    TextTransform="Uppercase"
+                    />
+                <Label
+                    Text="{Binding Name, StringFormat='Name: {0}'}"
+                    TextColor="#4C4B16"
+                    FontSize="20"
+                    FontFamily="{StaticResource PixelFont}"
+                    TextTransform="Uppercase"
+                    />
+                <Label
+                    Text="{Binding Height, Converter={StaticResource IntegerConverter}, StringFormat='Height: {0:F1} m'}"
+                    TextColor="#4C4B16"
+                    FontSize="20"
+                    FontFamily="{StaticResource PixelFont}"
+                    TextTransform="Uppercase"
+                    />
+                <Label
+                    Text="{Binding Weight, Converter={StaticResource IntegerConverter}, StringFormat='Weight: {0:F1} kg'}"
+                    TextColor="#4C4B16"
+                    FontSize="20"
+                    FontFamily="{StaticResource PixelFont}"
+                    TextTransform="Uppercase"
+                    />
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+    </ScrollView>
+</ContentPage>

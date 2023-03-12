@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeMaster.SearchPage"
+             Title="Search Page"
+             BackgroundColor="#F8DE7E">
+
+    <ContentPage.Resources>
+        <OnPlatform x:Key="PixelFont" x:TypeArguments="x:String">
+            <On Platform="WinUI" Value="/slkscr.ttf#Silkscreen" />
+        </OnPlatform>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="5"
+            VerticalOptions="Center">
+
+            <AbsoluteLayout>
+                <Image 
+                    Source="pikachu.png"
+                    AbsoluteLayout.LayoutBounds="0.52,0.5,250,250" 
+                    AbsoluteLayout.LayoutFlags="PositionProportional" 
+                    TranslationX="-60" 
+                    TranslationY="0" />
+            </AbsoluteLayout>
+
+            <Image
+                Source="title.png"
+                SemanticProperties.Description="App title"
+                HeightRequest="80"
+                HorizontalOptions="Center" 
+                Margin="0,0,0,10" />
+
+            <HorizontalStackLayout
+                HorizontalOptions="Center">
+                <SearchBar 
+                    x:Name="pokemonSearch"
+                    Placeholder="Search by name or ID!" 
+                    FontFamily="{StaticResource PixelFont}"
+                    WidthRequest="550"
+                    Margin="0,0,20,0"
+                    HorizontalTextAlignment="Center"
+                    TextColor="#4C4B16"
+                    TranslationX="30" 
+                    SearchButtonPressed="OnSearchButtonPressed"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

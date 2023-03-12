@@ -1,0 +1,13 @@
+﻿* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    display: flex;
+    color: #CEB180;
+    background-color: #FFF200;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+}

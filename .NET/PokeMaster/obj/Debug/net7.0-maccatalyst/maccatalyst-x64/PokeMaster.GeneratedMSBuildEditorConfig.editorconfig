@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PokeMaster
+build_property.ProjectDir = C:\Users\albto\source\repos\PokeMaster\
+
+[C:/Users/albto/source/repos/PokeMaster/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PokeMaster.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/albto/source/repos/PokeMaster/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PokeMaster.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/albto/source/repos/PokeMaster/Pages/NoInternetConnPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PokeMaster.Pages.NoInternetConnPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\NoInternetConnPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\NoInternetConnPage.xaml
+
+[C:/Users/albto/source/repos/PokeMaster/Pages/PokemonDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PokeMaster.Pages.PokemonDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PokemonDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PokemonDetailPage.xaml
+
+[C:/Users/albto/source/repos/PokeMaster/Pages/SearchPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PokeMaster.Pages.SearchPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SearchPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SearchPage.xaml
+
+[C:/Users/albto/source/repos/PokeMaster/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PokeMaster.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/albto/source/repos/PokeMaster/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PokeMaster.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/albto/source/repos/PokeMaster/wwwroot/css/app.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = PokeMaster.wwwroot.css.app.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\app.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\app.css
+
+[C:/Users/albto/source/repos/PokeMaster/wwwroot/css/bootstrap/bootstrap.min.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = PokeMaster.wwwroot.css.bootstrap.bootstrap.min.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\bootstrap\bootstrap.min.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\bootstrap\bootstrap.min.css
+
+[C:/Users/albto/source/repos/PokeMaster/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = PokeMaster.wwwroot.css.open_iconic.font.css.open-iconic-bootstrap.min.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+
+[C:/Users/albto/source/repos/PokeMaster/wwwroot/css/styles.css]
+build_metadata.AdditionalFiles.GenKind = Css
+build_metadata.AdditionalFiles.ManifestResourceName = PokeMaster.wwwroot.css.styles.css
+build_metadata.AdditionalFiles.TargetPath = wwwroot\css\styles.css
+build_metadata.AdditionalFiles.RelativePath = wwwroot\css\styles.css

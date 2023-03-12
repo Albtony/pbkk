@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeMaster.NoInternetConnPage"
+             Title="No Internet Connection"
+             BackgroundColor="#F8DE7E">
+
+    <ContentPage.Resources>
+        <OnPlatform x:Key="PixelFont" x:TypeArguments="x:String">
+            <On Platform="WinUI" Value="/slkscr.ttf#Silkscreen" />
+        </OnPlatform>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem 
+            IconImageSource="back_arrow.png"
+            Priority="0"
+            Order="Primary"
+            Clicked="OnBackButtonClicked" />
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Image
+                Source="psyduck.png"
+                SemanticProperties.Description="App title"
+                HeightRequest="300"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="0, 150, 0, 30"/>
+            <Label
+                Text="Uh Oh, the internet is unavailable..."
+                TextColor="#4C4B16"
+                FontSize="20"
+                FontFamily="{StaticResource PixelFont}"
+                TextTransform="Uppercase"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+            <Label
+                Text="Try again later."
+                TextColor="#4C4B16"
+                FontSize="20"
+                FontFamily="{StaticResource PixelFont}"
+                TextTransform="Uppercase"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
