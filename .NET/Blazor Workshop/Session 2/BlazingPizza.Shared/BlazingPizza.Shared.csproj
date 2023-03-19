@@ -6,10 +6,6 @@
 		<ImplicitUsings>true</ImplicitUsings>
   </PropertyGroup>
 
-	<ItemGroup>
-		<Using Include="System.ComponentModel.DataAnnotations" />
-	</ItemGroup>
-	
   <ItemGroup>
     <ProjectReference Include="..\BlazingPizza.ComponentsLibrary\BlazingPizza.ComponentsLibrary.csproj" />
   </ItemGroup>
