@@ -1,5 +1,4 @@
 ﻿namespace BlazingPizza.ComponentsLibrary.Map;
-
 public class Marker
 {
     public string Description { get; set; }

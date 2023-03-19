@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5E0wKWb35tyCkc5BNTkf/JfABgBWqPBcGvfJwEX7woQKogukXsav01fnSal7POr6HqpfVo0TtU0sEsSw4tZdMw==",
+  "dgSpecHash": "05Fpla1pIjLvDx5/erkKj64/qEAwTEBAOb/JHS/NWrTfJX93R2OeCP+W0zaNakZqT7iC4P+SM1V6kZt+qOT0Tg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\personal\\Blazor - App building workshop\\save-points\\00-get-started\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj",
+  "projectFilePath": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\personal\\Blazor - App building workshop\\save-points\\01-Components-and-layout\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\albto\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.0\\microsoft.aspnetcore.authorization.7.0.0.nupkg.sha512",
     "C:\\Users\\albto\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.0\\microsoft.aspnetcore.components.7.0.0.nupkg.sha512",

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>$(TargetFrameworkVersion)</TargetFramework>
-    <ImplicitUsings>true</ImplicitUsings>
+		<ImplicitUsings>true</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,5 +16,5 @@
     <ProjectReference Include="..\BlazingPizza.ComponentsLibrary\BlazingPizza.ComponentsLibrary.csproj" />
     <ProjectReference Include="..\BlazingPizza.Shared\BlazingPizza.Shared.csproj" />
   </ItemGroup>
-  
+
 </Project>
