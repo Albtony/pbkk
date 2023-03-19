@@ -550,11 +550,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\personal\\Blazor - App building workshop\\save-points\\02-customize-a-pizza\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\personal\\Blazor - App building workshop\\save-points\\03-show-order-status\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj",
       "projectName": "BlazingPizza.ComponentsLibrary",
-      "projectPath": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\personal\\Blazor - App building workshop\\save-points\\02-customize-a-pizza\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj",
+      "projectPath": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\personal\\Blazor - App building workshop\\save-points\\03-show-order-status\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj",
       "packagesPath": "C:\\Users\\albto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\personal\\Blazor - App building workshop\\save-points\\02-customize-a-pizza\\BlazingPizza.ComponentsLibrary\\obj\\",
+      "outputPath": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\personal\\Blazor - App building workshop\\save-points\\03-show-order-status\\BlazingPizza.ComponentsLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

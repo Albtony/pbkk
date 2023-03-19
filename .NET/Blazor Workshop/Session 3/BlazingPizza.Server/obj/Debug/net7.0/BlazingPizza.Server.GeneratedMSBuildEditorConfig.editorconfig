@@ -9,17 +9,17 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazingPizza.Server
 build_property.RootNamespace = BlazingPizza.Server
-build_property.ProjectDir = C:\Users\albto\OneDrive\Documents\Code\personal\Blazor - App building workshop\save-points\02-customize-a-pizza\BlazingPizza.Server\
+build_property.ProjectDir = C:\Users\albto\OneDrive\Documents\Code\personal\Blazor - App building workshop\save-points\03-show-order-status\BlazingPizza.Server\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\albto\OneDrive\Documents\Code\personal\Blazor - App building workshop\save-points\02-customize-a-pizza\BlazingPizza.Server
+build_property.MSBuildProjectDirectory = C:\Users\albto\OneDrive\Documents\Code\personal\Blazor - App building workshop\save-points\03-show-order-status\BlazingPizza.Server
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/albto/OneDrive/Documents/Code/personal/Blazor - App building workshop/save-points/02-customize-a-pizza/BlazingPizza.Server/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
+[C:/Users/albto/OneDrive/Documents/Code/personal/Blazor - App building workshop/save-points/03-show-order-status/BlazingPizza.Server/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/albto/OneDrive/Documents/Code/personal/Blazor - App building workshop/save-points/02-customize-a-pizza/BlazingPizza.Server/Areas/Identity/Pages/_Layout.cshtml]
+[C:/Users/albto/OneDrive/Documents/Code/personal/Blazor - App building workshop/save-points/03-show-order-status/BlazingPizza.Server/Areas/Identity/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

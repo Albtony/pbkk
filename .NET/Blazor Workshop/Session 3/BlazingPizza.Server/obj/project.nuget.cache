@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n0/s9gJ3+l5sM7jo7QCDC97jvj68tmaQ6ngbgo9Iynp6EzsdDBeLWMtk41NFevkB7beLz03x+D4tMTYuno/+EA==",
+  "dgSpecHash": "3l0hrHs67VhcoOHOE6FLFaQboXbKbeLpPmcdrf1t1nJV6q2OORJBTTDDZLX/yTU/Cmo48juLlnhGK/Da7csijg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\personal\\Blazor - App building workshop\\save-points\\02-customize-a-pizza\\BlazingPizza.Server\\BlazingPizza.Server.csproj",
+  "projectFilePath": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\personal\\Blazor - App building workshop\\save-points\\03-show-order-status\\BlazingPizza.Server\\BlazingPizza.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\albto\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\albto\\.nuget\\packages\\duende.identityserver\\6.0.4\\duende.identityserver.6.0.4.nupkg.sha512",
