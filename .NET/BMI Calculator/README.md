@@ -34,3 +34,6 @@ Dokumentasi: <br>
 
 3. Melihat data BMI yang telah disimpan (dalam bentuk list view) (contoh dari pertemuan 5 aplikasi MonkeyFinder). <br>
 <img src="https://user-images.githubusercontent.com/78489357/226344741-ca8d5b22-dc36-4db4-815b-21e4dcfc0b6d.png" width="900"> <br>
+
+## Diagram Arsitektur
+<img src="https://user-images.githubusercontent.com/78489357/226351945-5db73ed3-5c4d-4278-8556-cf702ddb21e9.png" width="900"> <br>
