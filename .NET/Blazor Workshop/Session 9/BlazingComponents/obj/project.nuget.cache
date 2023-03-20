@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "k19sk+G/z6z2fjU2wPHRbX3OaSiGc0iGG2tgKVkm0scg1tLteQhei6E5PEU7euRvFouYhag0x56GtVg6B/K/yg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\github\\PBKK\\.NET\\Blazor Workshop\\Session 9\\BlazingComponents\\BlazingComponents.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to read project information for 'BlazingComponents': Invalid framework identifier ''."
+    }
+  ]
+}

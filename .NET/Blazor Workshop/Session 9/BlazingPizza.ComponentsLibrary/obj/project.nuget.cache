@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "gFfFGlX1KG75r2GGfOelR0NZJ37YNLNihOzJJ8qGVAt3imxlcKtwTjvZaKzP3axKfnqHcid+QMFpXSQNEGMRRg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\github\\PBKK\\.NET\\Blazor Workshop\\Session 9\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to read project information for 'BlazingPizza.ComponentsLibrary': Invalid framework identifier ''."
+    }
+  ]
+}

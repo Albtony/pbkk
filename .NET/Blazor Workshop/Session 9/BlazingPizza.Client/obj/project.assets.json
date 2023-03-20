@@ -1,0 +1,38 @@
+{
+  "version": 3,
+  "targets": {},
+  "libraries": {},
+  "projectFileDependencyGroups": {},
+  "packageFolders": {
+    "C:\\Users\\albto\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\github\\PBKK\\.NET\\Blazor Workshop\\Session 9\\BlazingPizza.Client\\BlazingPizza.Client.csproj",
+      "projectPath": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\github\\PBKK\\.NET\\Blazor Workshop\\Session 9\\BlazingPizza.Client\\BlazingPizza.Client.csproj",
+      "packagesPath": "C:\\Users\\albto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\github\\PBKK\\.NET\\Blazor Workshop\\Session 9\\BlazingPizza.Client\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\albto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to read project information for 'BlazingPizza.Client': Invalid framework identifier ''."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "+rU3g2rkYevvnLUMv/xL5T8zVu3/9/eT5jJr9QpM3Cq2W4fN3DliNjR+CI2WH+h1piWvQ2paXbqiwS1Ts01/Ig==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\github\\PBKK\\.NET\\Blazor Workshop\\Session 9\\BlazingPizza.Client\\BlazingPizza.Client.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to read project information for 'BlazingPizza.Client': Invalid framework identifier ''."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "+rqrKmf4QFlvukO9fOvjYLacqNUyq5AK6NBbn/0iUdVIZgTCJau8C5pmQ11hGkXbP0s/lRynNcjfwMUgYtTGuQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\github\\PBKK\\.NET\\Blazor Workshop\\Session 9\\BlazingPizza.Shared\\BlazingPizza.Shared.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to read project information for 'BlazingPizza.Shared': Invalid framework identifier ''."
+    }
+  ]
+}

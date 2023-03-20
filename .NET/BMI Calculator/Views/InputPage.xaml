@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BMI_Calculator.Views.InputPage"
+             Title="Input Page">
+
+    <VerticalStackLayout VerticalOptions="Center">
+        <Label Text="BMI Calculator &amp; Data Center" 
+               HorizontalTextAlignment="Center"
+               Margin="0, 0, 20, 0"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               TextColor="Aquamarine"/>
+        
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Label Text="Enter Name" 
+                   VerticalTextAlignment="Center"/>
+            <Entry Text="{Binding Name}" 
+                   HorizontalOptions="Center" 
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="End"
+                   Margin="10" 
+                   WidthRequest="200" 
+                   HeightRequest="40"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Button Text="View BMIs" 
+                    Command="{Binding ViewDataCommand}" 
+                    Margin="10" 
+                    WidthRequest="130"/>
+            <Button Text="Calculate BMI" 
+                    Command="{Binding CalculateCommand}" 
+                    Margin="10" 
+                    WidthRequest="130"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+
+</ContentPage>

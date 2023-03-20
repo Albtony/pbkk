@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BMI_Calculator.Views.BMICalculatorPage"
+             Title="BMI Calculator Page">
+    
+    <ScrollView>
+        <FlexLayout Padding="40" Direction="Column" JustifyContent="SpaceEvenly">
+            <StackLayout>
+                <Label Text="BMI" 
+                       FontSize="Large" 
+                       HorizontalOptions="Center" 
+                       FontAttributes="Bold" 
+                       TextColor="Aquamarine"/>
+
+                <HorizontalStackLayout
+                    HorizontalOptions="Center">
+                    <Label Text="{Binding Name}" 
+                       FontSize="Medium"
+                       HorizontalTextAlignment="Center"
+                       Margin="10"/>
+                </HorizontalStackLayout>
+
+
+                <HorizontalStackLayout
+                    HorizontalOptions="Center">
+                    <VerticalStackLayout
+                        Margin="10">
+                        <Label Text="Height (cm)" 
+                               HorizontalOptions="Center" 
+                               FontAttributes="Bold" 
+                               FontSize="Medium"/>
+                        <Entry Text="{Binding Height}" 
+                               HorizontalTextAlignment="Center"
+                               FontSize="Medium"
+                               FontAttributes="Bold"
+                               WidthRequest="150"
+                               HeightRequest="40"/>
+                        <Stepper Value="{Binding Height}" 
+                                 Minimum="1" 
+                                 Maximum="240" 
+                                 HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout
+                        Margin="10">
+                        <Label Text="Weight (kg)" 
+                               HorizontalOptions="Center" 
+                               FontAttributes="Bold" 
+                               FontSize="Medium"/>
+                        <Entry Text="{Binding Weight}"
+                               HorizontalTextAlignment="Center"
+                               FontSize="Medium" 
+                               FontAttributes="Bold"
+                               WidthRequest="150"
+                               HeightRequest="40"/>
+                        <Stepper Value="{Binding Weight}" 
+                                 Minimum="1" 
+                                 Maximum="320" 
+                                 HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout
+                    HorizontalOptions="Center">
+                    <VerticalStackLayout
+                        Margin="10"
+                        WidthRequest="150">
+                        <Label Text="BMI Score" 
+                               HorizontalOptions="Center" 
+                               FontAttributes="Bold" 
+                               FontSize="Medium"/>
+                        <Label Text="{Binding BMIScore}" 
+                               HorizontalOptions="Center" 
+                               FontAttributes="Bold" 
+                               FontSize="Medium" 
+                               TextColor="Green"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout
+                        Margin="10"
+                        WidthRequest="150">
+                        <Label Text="Result" 
+                               HorizontalOptions="Center" 
+                               FontAttributes="Bold" 
+                               FontSize="Medium"/>
+                        <Label Text="{Binding BMIResult}" 
+                               HorizontalOptions="Center" 
+                               FontAttributes="Bold" 
+                               FontSize="Medium" 
+                               TextColor="Green"/>
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+
+                <Button Text="Save Data" 
+                    Command="{Binding SaveDataCommand}" 
+                    Margin="10" 
+                    WidthRequest="130"/>
+
+            </StackLayout>
+        </FlexLayout>
+    </ScrollView>
+    
+</ContentPage>
