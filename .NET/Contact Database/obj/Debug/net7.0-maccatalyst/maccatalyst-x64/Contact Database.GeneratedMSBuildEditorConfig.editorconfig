@@ -34,6 +34,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Contact_Database.Resources
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/albto/source/repos/Contact Database/Views/ContactListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Contact_Database.Views.ContactListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ContactListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ContactListPage.xaml
+
 [C:/Users/albto/source/repos/Contact Database/Views/InputPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contact_Database.Views.InputPage.xaml

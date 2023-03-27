@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contact_Database.Views.ContactListPage"
+             Title="ContactListPage">
+    
+    <StackLayout>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+
+            <Label Text="ID"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
+            <Label Grid.Column="1" Text="Contact Name"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
+            <Label Grid.Column="2" Text="Institute Name"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
+            <Label Grid.Column="3" Text="Email"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
+            <Label Grid.Column="4" Text="Institute Phone"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
+            <Label Grid.Column="5" Text="Private Phone"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
+        </Grid>
+        <CollectionView x:Name="contactList" Grid.Row="4">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="2*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="{Binding Id}" HorizontalOptions="Center"/>
+                        <Label Grid.Column="1" Text="{Binding ContactName}"  HorizontalOptions="Center"/>
+                        <Label Grid.Column="2" Text="{Binding InstituteName}"  HorizontalOptions="Center"/>
+                        <Label Grid.Column="3" Text="{Binding Email}"  HorizontalOptions="Center"/>
+                        <Label Grid.Column="4" Text="{Binding InstitutePhoneNo}"  HorizontalOptions="Center"/>
+                        <Label Grid.Column="5" Text="{Binding PrivatePhoneNo}"  HorizontalOptions="Center"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Button Text="Get Contacts" 
+                Clicked="OnGetContactClicked" 
+                Style="{StaticResource ButtonOutline}"
+                Margin="10"
+                VerticalOptions="Center"
+                WidthRequest="200"/>
+    </StackLayout>
+</ContentPage>
+</ContentPage>
