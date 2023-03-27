@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Contact_Database.Views.ContactListPage"
              Title="ContactListPage">
-    
+
     <StackLayout>
         <Grid>
             <Grid.ColumnDefinitions>
@@ -54,5 +54,4 @@
                 VerticalOptions="Center"
                 WidthRequest="200"/>
     </StackLayout>
-</ContentPage>
 </ContentPage>
