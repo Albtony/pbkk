@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contact_Database.Views.InputPage"
+             Title="InputPage">
+    
+    <VerticalStackLayout VerticalOptions="Center">
+        <Label Text="BMI Calculator &amp; Data Center" 
+               HorizontalTextAlignment="Center"
+               Margin="0, 0, 20, 0"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               TextColor="Aquamarine"/>
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Label Text="Id" 
+                   VerticalTextAlignment="Center"
+                   WidthRequest="130" />
+            <Entry Text="{Binding Id}" 
+                   HorizontalOptions="Center" 
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="End"
+                   Margin="10" 
+                   WidthRequest="200" 
+                   HeightRequest="40"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Label Text="Contact Name" 
+                   VerticalTextAlignment="Center"
+                   WidthRequest="130" />
+            <Entry Text="{Binding ContactName}" 
+                   HorizontalOptions="Center" 
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="End"
+                   Margin="10" 
+                   WidthRequest="200" 
+                   HeightRequest="40"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Label Text="Institute Name" 
+                   VerticalTextAlignment="Center"
+                   WidthRequest="130" />
+            <Entry Text="{Binding InstituteName}" 
+                   HorizontalOptions="Center" 
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="End"
+                   Margin="10" 
+                   WidthRequest="200" 
+                   HeightRequest="40"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Label Text="Email" 
+                   VerticalTextAlignment="Center"
+                   WidthRequest="130" />
+            <Entry Text="{Binding Email}" 
+                   HorizontalOptions="Center" 
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="End"
+                   Margin="10" 
+                   WidthRequest="200" 
+                   HeightRequest="40"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Label Text="Institute Phone No." 
+                   VerticalTextAlignment="Center"
+                   WidthRequest="130" />
+            <Entry Text="{Binding InstitutePhoneNo}" 
+                   HorizontalOptions="Center" 
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="End"
+                   Margin="10" 
+                   WidthRequest="200" 
+                   HeightRequest="40"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Label Text="Private Phone No." 
+                   VerticalTextAlignment="Center"
+                   WidthRequest="130" />
+            <Entry Text="{Binding PrivatePhoneNo}" 
+                   HorizontalOptions="Center" 
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="End"
+                   Margin="10" 
+                   WidthRequest="200" 
+                   HeightRequest="40"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Button Text="Save Contact" 
+                    Command="{Binding SaveContactCommand}" 
+                    Margin="10" 
+                    WidthRequest="130"/>
+            <Button Text="View Contacts" 
+                    Command="{Binding ViewContactsCommand}" 
+                    Margin="10" 
+                    WidthRequest="130"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+
+</ContentPage>
