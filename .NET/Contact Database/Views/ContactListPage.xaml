@@ -23,7 +23,7 @@
             <Label Grid.Column="4" Text="Institute Phone"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
             <Label Grid.Column="5" Text="Private Phone"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
         </Grid>
-        <CollectionView x:Name="contactList" Grid.Row="4">
+        <CollectionView x:Name="_contactList" Grid.Row="4">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid>

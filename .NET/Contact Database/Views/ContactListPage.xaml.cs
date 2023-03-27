@@ -13,6 +13,7 @@ public partial class ContactListPage : ContentPage
     }
     async void OnGetContactClicked(object sender, EventArgs args)
     {
-        //TODO: implement
+        List<Models.Contact> contactList = await App.contactRepo.GetContactList();
+        _contactList.ItemsSource = contactList;
     }
 }

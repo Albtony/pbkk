@@ -53,7 +53,7 @@ namespace Contact_Database
 
         }
 
-        public async Task<List<Models.Contact>> GetBMIList()
+        public async Task<List<Models.Contact>> GetContactList()
         {
             try
             {

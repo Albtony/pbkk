@@ -1,4 +1,8 @@
 ﻿using Microsoft.Extensions.Logging;
+using Contact_Database.Models;
+using Contact_Database.ViewModels;
+using Contact_Database.Views;
+using Windows.Media.Core;
 
 namespace Contact_Database;
 
@@ -15,10 +19,14 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
-#if DEBUG
-		builder.Logging.AddDebug();
-#endif
+		builder.Services.AddTransient<InputView>();
 
-		return builder.Build();
+		builder.Services.AddTransient<ContactListPage>();
+        string dbPath = FileAccessHelper.GetLocalFilePath("bmi.db3");
+        builder.Services.AddSingleton<ContactRepository>(s => ActivatorUtilities.CreateInstance<ContactRepository>(s, dbPath));
+        builder.Services.AddTransient<InputPageViewModel>();
+
+        return builder.Build();
 	}
 }
+

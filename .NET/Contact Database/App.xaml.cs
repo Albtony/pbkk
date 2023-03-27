@@ -1,11 +1,13 @@
 ﻿namespace Contact_Database;
-
 public partial class App : Application
 {
-	public App()
-	{
-		InitializeComponent();
+    public static ContactRepository contactRepo { get; private set; }
+    public App(ContactRepository repo)
+    {
+        InitializeComponent();
 
-		MainPage = new AppShell();
-	}
+        MainPage = new AppShell();
+
+        contactRepo = repo; 
+    }
 }
