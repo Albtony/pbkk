@@ -1,1 +1,1 @@
-C:\Users\albto\source\repos\BMI Calculator\BMI Calculator.csproj;x64
+C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\BMI Calculator\BMI Calculator.csproj;x64

@@ -6,17 +6,14 @@ namespace BMI_Calculator.ViewModels
 {
     public partial class InputPageViewModel: ObservableObject
     {
-        [ObservableProperty]
-        public string _name;
-
         [RelayCommand]
-        private async void Calculate()
+        private async void saveContact()
         {
-            await Shell.Current.GoToAsync($"{nameof(BMICalculatorPage)}?Text={Name}");
+            await Shell.Current.GoToAsync(nameof(BMIListPage));
         }
 
         [RelayCommand]
-        private async void ViewData()
+        private async void ViewContacts()
         {
             await Shell.Current.GoToAsync(nameof(BMIListPage));
         }

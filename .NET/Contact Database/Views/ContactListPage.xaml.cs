@@ -11,9 +11,9 @@ public partial class ContactListPage : ContentPage
     {
         InitializeComponent();
     }
-    async void OnGetContactClicked(object sender, EventArgs args)
+    void OnGetContactClicked(object sender, EventArgs args)
     {
-        List<Models.Contact> contactList = await App.contactRepo.GetContactList();
-        _contactList.ItemsSource = contactList;
+        //List<Models.Contact> contactList = await App.contactRepo.GetContactList();
+        //_contactList.ItemsSource = contactList;
     }
 }

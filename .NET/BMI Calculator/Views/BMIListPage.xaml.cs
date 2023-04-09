@@ -11,10 +11,10 @@ public partial class BMIListPage : ContentPage
 	{
 		InitializeComponent();
     }
-    async void OnGetBMIListClicked(object sender, EventArgs args)
+    async void OnGetContactClicked(object sender, EventArgs args)
     {
         //await Shell.Current.GoToAsync(nameof(BMICalculatorPage));
         List<BMIData> BMIList = await App.BMIRepo.GetBMIList();
-        _BMIList.ItemsSource = BMIList;
+        _contactList.ItemsSource = BMIList;
     }
 }

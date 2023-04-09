@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>b03afeaf-8680-4367-ba5c-d9715c78cbd2</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>C:\Users\albto\source\repos\Contact Database\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>8D28452BFF8BBBD92D305F44119AF5115B0A80852BD4EC8402FBCD8C30AD890D</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b03afeaf-8680-4367-ba5c-d9715c78cbd2_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b03afeaf-8680-4367-ba5c-d9715c78cbd2_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -27,28 +27,28 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\albto\source\repos\Contact Database\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-27T01:30:48.013</Modified>
+      <Modified>2023-03-27T02:39:38.182</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-27T01:30:47.586</Modified>
+      <Modified>2023-03-27T02:39:37.709</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Contact Database.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Contact Database.runtimeconfig.json">
       <PackagePath>Contact Database.runtimeconfig.json</PackagePath>
-      <Modified>2023-03-27T01:30:47.370</Modified>
+      <Modified>2023-03-27T02:26:15.367</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Contact Database.dll">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Contact Database.dll">
       <PackagePath>Contact Database.dll</PackagePath>
-      <Modified>2023-03-27T01:30:45.985</Modified>
+      <Modified>2023-03-27T02:39:36.765</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Contact Database.exe</PackagePath>
-      <Modified>2023-03-27T01:30:46.007</Modified>
+      <Modified>2023-03-27T02:39:36.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\albto\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.4\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -946,9 +946,9 @@
       <PackagePath>e_sqlite3.dll</PackagePath>
       <Modified>2020-08-17T14:38:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Contact Database.deps.json">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Contact Database.deps.json">
       <PackagePath>Contact Database.deps.json</PackagePath>
-      <Modified>2023-03-27T01:30:47.843</Modified>
+      <Modified>2023-03-27T02:39:37.952</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.59\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -962,239 +962,239 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2023-01-19T10:16:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2023-03-27T00:44:54.791</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2023-03-27T00:45:04.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2023-03-27T00:45:04.346</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2023-03-27T00:45:04.367</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2023-03-27T00:45:04.394</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2023-03-27T00:45:04.566</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2023-03-27T00:44:54.785</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2023-03-27T00:44:54.787</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2023-03-27T00:45:04.624</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2023-03-27T00:45:04.863</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2023-03-27T00:45:04.863</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2023-03-27T00:45:04.879</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2023-03-27T00:45:04.894</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2023-03-27T00:45:04.957</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2023-03-27T00:45:04.691</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2023-03-27T00:45:04.691</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2023-03-27T00:45:04.707</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2023-03-27T00:45:04.691</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2023-03-27T00:45:04.691</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2023-03-27T00:45:04.676</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2023-03-27T00:45:04.676</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2023-03-27T00:45:04.691</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2023-03-27T00:45:04.676</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2023-03-27T00:45:04.676</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2023-03-27T00:45:04.631</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2023-03-27T00:45:04.631</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2023-03-27T00:45:04.631</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2023-03-27T00:45:04.644</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2023-03-27T00:45:04.644</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2023-03-27T00:45:04.644</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2023-03-27T00:45:04.644</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2023-03-27T00:45:04.660</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2023-03-27T00:45:04.660</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2023-03-27T00:45:04.660</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2023-03-27T00:45:04.754</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2023-03-27T00:45:04.754</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2023-03-27T00:45:04.754</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2023-03-27T00:45:04.769</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2023-03-27T00:45:04.785</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2023-03-27T00:45:04.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2023-03-27T00:45:04.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2023-03-27T00:45:04.738</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2023-03-27T00:45:04.738</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2023-03-27T00:45:04.754</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2023-03-27T00:45:04.707</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2023-03-27T00:45:04.707</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2023-03-27T00:45:04.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2023-03-27T00:45:04.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2023-03-27T00:45:04.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2023-03-27T00:45:04.785</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2023-03-27T00:45:04.801</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2023-03-27T00:45:04.801</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2023-03-27T00:45:04.816</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2023-03-27T00:45:04.847</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2023-03-27T00:45:04.660</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2023-03-27T00:45:04.676</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2023-03-27T00:45:04.691</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2023-03-27T00:45:04.707</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\albto\source\repos\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2023-03-27T00:45:04.754</Modified>
     </AppxPackagedFile>

@@ -24,11 +24,9 @@ public static class MauiProgram
         builder.Services.AddTransient<BMICalculatorPageViewModel>();
 
         builder.Services.AddTransient<BMIListPage>();
-        builder.Services.AddTransient<BMIListPageViewModel>();
 
         string dbPath = FileAccessHelper.GetLocalFilePath("bmi.db3");
         builder.Services.AddSingleton<BMIRepository>(s => ActivatorUtilities.CreateInstance<BMIRepository>(s, dbPath)); ;
-		builder.Services.AddSingleton<BMIListPageViewModel>();
 		builder.Services.AddTransient<BMIListPage>();	
 
         return builder.Build();

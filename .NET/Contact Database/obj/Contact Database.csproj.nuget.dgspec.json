@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\albto\\source\\repos\\Contact Database\\Contact Database.csproj": {}
+    "C:\\Users\\albto\\OneDrive\\Documents\\Code\\github\\PBKK\\.NET\\Contact Database\\Contact Database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\albto\\source\\repos\\Contact Database\\Contact Database.csproj": {
+    "C:\\Users\\albto\\OneDrive\\Documents\\Code\\github\\PBKK\\.NET\\Contact Database\\Contact Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\albto\\source\\repos\\Contact Database\\Contact Database.csproj",
+        "projectUniqueName": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\github\\PBKK\\.NET\\Contact Database\\Contact Database.csproj",
         "projectName": "Contact Database",
-        "projectPath": "C:\\Users\\albto\\source\\repos\\Contact Database\\Contact Database.csproj",
+        "projectPath": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\github\\PBKK\\.NET\\Contact Database\\Contact Database.csproj",
         "packagesPath": "C:\\Users\\albto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\albto\\source\\repos\\Contact Database\\obj\\",
+        "outputPath": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\github\\PBKK\\.NET\\Contact Database\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

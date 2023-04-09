@@ -12,39 +12,39 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Contact_Database
-build_property.ProjectDir = C:\Users\albto\source\repos\Contact Database\
+build_property.ProjectDir = C:\Users\albto\OneDrive\Documents\Code\github\PBKK\.NET\Contact Database\
 
-[C:/Users/albto/source/repos/Contact Database/App.xaml]
+[C:/Users/albto/OneDrive/Documents/Code/github/PBKK/.NET/Contact Database/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contact_Database.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/albto/source/repos/Contact Database/AppShell.xaml]
+[C:/Users/albto/OneDrive/Documents/Code/github/PBKK/.NET/Contact Database/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contact_Database.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/albto/source/repos/Contact Database/Resources/Styles/Colors.xaml]
+[C:/Users/albto/OneDrive/Documents/Code/github/PBKK/.NET/Contact Database/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contact_Database.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/albto/source/repos/Contact Database/Resources/Styles/Styles.xaml]
+[C:/Users/albto/OneDrive/Documents/Code/github/PBKK/.NET/Contact Database/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contact_Database.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/albto/source/repos/Contact Database/Views/ContactListPage.xaml]
+[C:/Users/albto/OneDrive/Documents/Code/github/PBKK/.NET/Contact Database/Views/ContactListPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contact_Database.Views.ContactListPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ContactListPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ContactListPage.xaml
 
-[C:/Users/albto/source/repos/Contact Database/Views/InputPage.xaml]
+[C:/Users/albto/OneDrive/Documents/Code/github/PBKK/.NET/Contact Database/Views/InputPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contact_Database.Views.InputPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\InputPage.xaml

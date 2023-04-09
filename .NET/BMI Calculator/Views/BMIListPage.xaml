@@ -16,15 +16,14 @@
                 <ColumnDefinition Width="2*" />
             </Grid.ColumnDefinitions>
 
-            <Label Text="ID" HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
-            <Label Grid.Column="1" Text="Name"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
-            <Label Grid.Column="2" Text="Height (cm)"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
-            <Label Grid.Column="3" Text="Weight (kg)"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
-            <Label Grid.Column="4" Text="BMI Score"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
-            <Label Grid.Column="5" Text="BMI Result"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
-            <Label Grid.Column="6" Text="Time Saved - UTC"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
+            <Label Text="ID"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
+            <Label Grid.Column="1" Text="Contact Name"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
+            <Label Grid.Column="2" Text="Institute Name"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
+            <Label Grid.Column="3" Text="Email"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
+            <Label Grid.Column="4" Text="Institute Phone"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
+            <Label Grid.Column="5" Text="Private Phone"  HorizontalOptions="Center" FontAttributes="Bold" Margin="10" TextColor="Aquamarine"/>
         </Grid>
-        <CollectionView x:Name="_BMIList" Grid.Row="4">
+        <CollectionView x:Name="_contactList" Grid.Row="4">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid>
@@ -39,18 +38,17 @@
                         </Grid.ColumnDefinitions>
 
                         <Label Text="{Binding Id}" HorizontalOptions="Center"/>
-                        <Label Grid.Column="1" Text="{Binding Name}"  HorizontalOptions="Center"/>
-                        <Label Grid.Column="2" Text="{Binding Height}"  HorizontalOptions="Center"/>
-                        <Label Grid.Column="3" Text="{Binding Weight}"  HorizontalOptions="Center"/>
-                        <Label Grid.Column="4" Text="{Binding BMIScore}"  HorizontalOptions="Center"/>
-                        <Label Grid.Column="5" Text="{Binding BMIResult}"  HorizontalOptions="Center"/>
-                        <Label Grid.Column="6" Text="{Binding TimeStamp}"  HorizontalOptions="Center"/>
+                        <Label Grid.Column="1" Text="{Binding ContactName}"  HorizontalOptions="Center"/>
+                        <Label Grid.Column="2" Text="{Binding InstituteName}"  HorizontalOptions="Center"/>
+                        <Label Grid.Column="3" Text="{Binding Email}"  HorizontalOptions="Center"/>
+                        <Label Grid.Column="4" Text="{Binding InstitutePhoneNo}"  HorizontalOptions="Center"/>
+                        <Label Grid.Column="5" Text="{Binding PrivatePhoneNo}"  HorizontalOptions="Center"/>
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-        <Button Text="Get BMI Datas" 
-                Clicked="OnGetBMIListClicked" 
+        <Button Text="Get Contacts" 
+                Clicked="OnGetContactClicked" 
                 Style="{StaticResource ButtonOutline}"
                 Margin="10"
                 VerticalOptions="Center"

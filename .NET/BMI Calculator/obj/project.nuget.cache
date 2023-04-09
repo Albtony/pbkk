@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wezwOV7zirZlQrpWrk5j0yj7KcR+fP/VyjYB9AKRuStgxEbHMGYTyG5zwFf/c22zwzv8okjpISCfePlV+Rq1BQ==",
+  "dgSpecHash": "9LX4sIkzjlQ94QNXykwicH6Wf1SC3EtZOZdgyhaBqXxLdubNiktebDt03Js4ZhI7JM4G+bksCIpyydvym/qceg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\albto\\source\\repos\\BMI Calculator\\BMI Calculator.csproj",
+  "projectFilePath": "C:\\Users\\albto\\OneDrive\\Documents\\Code\\github\\PBKK\\.NET\\BMI Calculator\\BMI Calculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\albto\\.nuget\\packages\\communitytoolkit.mvvm\\8.1.0\\communitytoolkit.mvvm.8.1.0.nupkg.sha512",
     "C:\\Users\\albto\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
@@ -140,12 +140,6 @@
     "C:\\Users\\albto\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.7.20.1\\xamarin.kotlin.stdlib.jdk8.1.7.20.1.nupkg.sha512",
     "C:\\Users\\albto\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.4.1\\xamarin.kotlinx.coroutines.android.1.6.4.1.nupkg.sha512",
     "C:\\Users\\albto\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.4.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
-    "C:\\Users\\albto\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.android-arm\\7.0.4\\microsoft.netcore.app.runtime.mono.android-arm.7.0.4.nupkg.sha512",
-    "C:\\Users\\albto\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.android-x86\\7.0.4\\microsoft.netcore.app.runtime.mono.android-x86.7.0.4.nupkg.sha512",
-    "C:\\Users\\albto\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.android-x64\\7.0.4\\microsoft.netcore.app.runtime.mono.android-x64.7.0.4.nupkg.sha512",
-    "C:\\Users\\albto\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.android-arm64\\7.0.4\\microsoft.netcore.app.runtime.mono.android-arm64.7.0.4.nupkg.sha512",
-    "C:\\Users\\albto\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.iossimulator-x64\\7.0.4\\microsoft.netcore.app.runtime.mono.iossimulator-x64.7.0.4.nupkg.sha512",
-    "C:\\Users\\albto\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.maccatalyst-x64\\7.0.4\\microsoft.netcore.app.runtime.mono.maccatalyst-x64.7.0.4.nupkg.sha512",
     "C:\\Users\\albto\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512",
     "C:\\Users\\albto\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.4\\microsoft.aspnetcore.app.runtime.win-x64.7.0.4.nupkg.sha512",
     "C:\\Users\\albto\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.4\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.4.nupkg.sha512",
