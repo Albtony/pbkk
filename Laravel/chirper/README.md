@@ -1,4 +1,4 @@
 Nama: Laravel Chirper </br>
 Deskripsi: </br>
-Tugas PBKK berdasarkan tutorial https://www.itsolutionstuff.com/post/how-to-create-custom-middleware-in-laravelexample.html
+Merupakan web yang dibangun sesuai tutorial berikut https://bootcamp.laravel.com/inertia/creating-chirps </br>
 Video Dokumentasi: https://youtu.be/suzSMEbSk28
