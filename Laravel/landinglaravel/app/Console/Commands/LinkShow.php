@@ -12,7 +12,7 @@ class LinkList extends Command
      *
      * @var string
      */
-    protected $signature = 'app:link-list';
+    protected $signature = 'app:link-show';
 
     /**
      * The console command description.
