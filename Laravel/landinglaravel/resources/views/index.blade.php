@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sammy's Awesome Links</title>
+    <title>My Awesome Links</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 
     <style>
@@ -29,10 +29,14 @@
 <section class="section">
     <div class="container">
         <h1 class="title">
-            Check out my awesome links
+            @if (isset($list))
+                {{ $list->title }}
+            @else
+                Check out my awesome links
+            @endif
         </h1>
         <p class="subtitle">
-            You can include a little description here.
+            @foreach ($lists as $list)<a href="{{ route('link-list', $list->slug) }}" title="{{ $list->title }}" class="tag is-info is-light">{{ $list->title }} ({{ $list->links()->count() }})</a> @endforeach
         </p>
 
         <section class="links">
@@ -40,9 +44,16 @@
                 <div class="box link">
                     <h3><a href="{{ $link->url }}" target="_blank" title="Visit Link: {{ $link->url }}">{{ $link->description }}</a></h3>
                     <p>{{$link->url}}</p>
+                    <p class="mt-2"><a href="{{ route('link-list', $link->link_list->slug) }}" title="{{ $link->link_list->title }}" class="tag is-info">{{ $link->link_list->title }}</a></p>
                 </div>
             @endforeach
         </section>
+
+        @if ($links->links()->paginator->hasPages())
+            <div class="mt-4 p-4 box has-text-centered">
+                {{ $links->links() }}
+            </div>
+        @endif
     </div>
 </section>
 </body>
