@@ -1,66 +1,39 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Nama: Blog </br>
+Deskripsi: </br>
+Merupakan web yang dibangun sesuai tutorial https://www.itsolutionstuff.com/post/laravel-8-user-roles-and-permissions-tutorialexample.html. Pada web ini kita dapat login dengan email dan password. Website ini juga dapat menampilkan produk yang telah didaftarkan. Selain itu, pada web ini terdapat berbagai role yang mengatur permission seorang user, permission ini meliputi operasi CRUD untuk role dan produk. </br>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Pertanyaan: </br>
+1. Entitas/model apa saja yang terlibat di dalam aplikasi tersebut?</br>
+    - User: merepresentasikan user aplikasi </br>
+    - Product: merepresentasikan produk aplikasi </br>
+    - Role: merepresentasikan role/peran aplikasi </br>
+    - Permission: merepresentasikan permission dalam aplikasi </br>
+2. Use case aplikasi. Format: <Jenis role> dapat melakukan <suatu fitur> </br>
+    - User dapat melakukan operasi CRUD terhadap produk aplikasi </br>
+    - User dapat melakukan operasi CRUD terhadap role user aplikasi </br>
+    - User dapat melakukan operasi CRUD terhadap user-user lainnya </br>
+3. Controllers, Middleware, dan library tambahan yang digunakan beserta fungsinya masing-masing</br>
+    - Library yang digunakan adalah </br>
+        - spatie/laravel-permission: memberikan fungsionalitas role dan permission untuk aplikasi</br>
+        - laravel/ui: mengenerate UI, layout dan memberikan fungsionalitas autentikasi aplikasi</br>
+        - laravelcollective/html: memberikan fungsionalistas html form builder </br>
+    - Middleware yang digunakan adalah </br>
+        - role: middleware asal laravel-permission, digunakan untuk membatasi akses ke route/controller tertentu berdasarkan role (ngecek role) </br>
+        - permission: middleware asal laravel-permission, digunakan untuk membatasi akses ke route/controller tertentu berdasarkan permission (ngecek permission)</br>
+        - role_or_permission: middleware asal laravel-permission, digunakan untuk membatasi akses ke route/controller tertentu berdasarkan role atau permission (ngecek ada permission/role)</br>
+    - Controller yang digunakan adalah </br>
+        - userController: memediasi interaksi CRUD view kepada User (index, create, store, show, edit, update, destroy)</br>
+        - roleController: memediasi interaksi CRUD view kepada Role (index, create, store, show, edit, update, destroy)</br>
+        - productController: memediasi interaksi CRUD view kepada Product (index, create, store, show, edit, update, destroy)</br>
+4. DB, external interfaces: struktur tabel database yang digunakan. </br>
+    - Tabel yang digunakan pada database adalah</br>
+        - users (id, name, email, password)</br>
+        - roles (id, name)</br>
+        - permissions (id, name)</br>
+        - role_has_permissions (permission_id, role_id)</br>
+        - products (id, name, detail)</br>
+    - External interfaces yang digunakan adalah </br>
+        - library laravel/ui: mengenerate UI, layout dan memberikan fungsionalitas autentikasi aplikasi</br>
+        - library laravelcollective/html: memberikan fungsionalistas html form builder </br>
 
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Video Dokumentasi: https://youtu.be/DoCXlD1gowY </br>
